@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_top_bars",
+  "info": {
+    "name": "Top Bars",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "Top_Bars": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.top-bar"
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "Max_Top_Bars": {
+      "type": "integer"
+    }
+  }
+}

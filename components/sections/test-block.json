@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_test_blocks",
+  "info": {
+    "name": "Text Block",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    }
+  }
+}

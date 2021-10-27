@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_blog_listings",
+  "info": {
+    "name": "Blog Listing",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "CTA_Url": {
+      "type": "string"
+    },
+    "Num_Posts": {
+      "type": "integer"
+    }
+  }
+}

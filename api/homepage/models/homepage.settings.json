@@ -1,0 +1,86 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero",
+      "required": true
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.footer"
+    },
+    "CocktailMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.cocktail-menu"
+    },
+    "Seasonal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.seasonal-block"
+    },
+    "Whats_Happening": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.whats-happening"
+    },
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.about-us"
+    },
+    "Cocktail_Creator": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.cocktail-creator"
+    },
+    "The_Basement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.blog-listing"
+    },
+    "Instagram": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.instagram"
+    },
+    "Top_Bars": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.top-bars"
+    },
+    "Reserve": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.reserve-your-table"
+    },
+    "Intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.test-block"
+    },
+    "Subscribe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.email-capture"
+    }
+  }
+}

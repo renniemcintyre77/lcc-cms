@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_email_captures",
+  "info": {
+    "name": "Email Capture",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "Post_Url": {
+      "type": "string"
+    }
+  }
+}

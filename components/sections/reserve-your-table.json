@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_reserve_your_tables",
+  "info": {
+    "name": "Reserve your table",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "MainLabel": {
+      "type": "string"
+    },
+    "SelectBarLabel": {
+      "type": "string"
+    },
+    "CurrentLocationLabel": {
+      "type": "string"
+    },
+    "MaxGuestsLabel": {
+      "type": "string"
+    },
+    "MaxGuests": {
+      "type": "integer"
+    },
+    "DateLabel": {
+      "type": "string"
+    }
+  }
+}

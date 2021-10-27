@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_menu_items",
+  "info": {
+    "name": "MenuItem",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "CTA_Url": {
+      "type": "string"
+    }
+  }
+}

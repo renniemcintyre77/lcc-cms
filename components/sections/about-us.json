@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_about_uses",
+  "info": {
+    "name": "About Us",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "CTA_Url": {
+      "type": "string"
+    },
+    "Images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.carousel"
+    }
+  }
+}

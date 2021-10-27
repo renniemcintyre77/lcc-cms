@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_cocktail_creators",
+  "info": {
+    "name": "Cocktail Creator",
+    "icon": "beer"
+  },
+  "options": {},
+  "attributes": {
+    "Background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "CTA_Url": {
+      "type": "string"
+    }
+  }
+}

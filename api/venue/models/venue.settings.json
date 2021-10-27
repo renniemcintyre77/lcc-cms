@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "venues",
+  "info": {
+    "name": "Venue"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "richtext"
+    },
+    "Postcode": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

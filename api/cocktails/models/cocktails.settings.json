@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cocktails",
+  "info": {
+    "name": "Cocktails",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "spirits": {
+      "collection": "spirits"
+    },
+    "flavours": {
+      "collection": "flavours"
+    },
+    "glasses": {
+      "collection": "glasses"
+    }
+  }
+}

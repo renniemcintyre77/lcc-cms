@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_cocktail_menus",
+  "info": {
+    "name": "Cocktail Menu",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "MenuItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-item"
+    }
+  }
+}

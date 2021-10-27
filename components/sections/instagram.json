@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_instagrams",
+  "info": {
+    "name": "Instagram",
+    "icon": "palette"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "account_id": {
+      "type": "string"
+    },
+    "num_posts": {
+      "type": "integer"
+    }
+  }
+}

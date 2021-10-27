@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_carousels",
+  "info": {
+    "name": "Carousel",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

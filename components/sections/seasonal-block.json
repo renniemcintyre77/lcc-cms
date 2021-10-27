@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_sections_seasonal_blocks",
+  "info": {
+    "name": "Seasonal Block",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "string"
+    },
+    "CTA_Url": {
+      "type": "string"
+    }
+  }
+}

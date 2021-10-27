@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_whats_happenings",
+  "info": {
+    "name": "Whats Happening",
+    "icon": "history"
+  },
+  "options": {},
+  "attributes": {
+    "Background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "MaxEvents": {
+      "type": "integer"
+    },
+    "Heading": {
+      "type": "string"
+    }
+  }
+}
