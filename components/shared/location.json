@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_locations",
+  "info": {
+    "name": "location",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "lng": {
+      "type": "float"
+    },
+    "lat": {
+      "type": "float"
+    }
+  }
+}

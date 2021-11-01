@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_reviews",
+  "info": {
+    "name": "Review",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "stars": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
