@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "cocktails",
+  "collectionName": "offers",
   "info": {
-    "name": "Cocktails",
-    "description": ""
+    "name": "Offers"
   },
   "options": {
     "increments": true,
@@ -12,11 +11,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "Name": {
       "type": "string"
     },
-    "image": {
-      "collection": "file",
+    "url_handle": {
+      "type": "string"
+    },
+    "hero": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -27,19 +29,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "spirits": {
-      "collection": "spirits"
-    },
-    "flavours": {
-      "collection": "flavours"
-    },
-    "glasses": {
-      "collection": "glasses"
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "ingredients": {
+    "content": {
       "type": "richtext"
     }
   }

@@ -22,11 +22,6 @@
       "component": "sections.hero",
       "required": true
     },
-    "Footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "sections.footer"
-    },
     "CocktailMenu": {
       "type": "component",
       "repeatable": false,
