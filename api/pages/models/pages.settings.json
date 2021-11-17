@@ -21,10 +21,30 @@
     "Seo": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
     },
     "url_handle": {
       "type": "string"
+    },
+    "Components": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.whats-happening",
+        "sections.cocktail-creator",
+        "sections.reserve-your-table",
+        "sections.cocktail-menu",
+        "sections.seasonal-block",
+        "sections.test-block",
+        "sections.instagram",
+        "sections.email-capture",
+        "sections.top-bars",
+        "sections.blog-listing",
+        "sections.hero",
+        "sections.about-us",
+        "sections.i-frame",
+        "sections.image-text-block"
+      ]
     }
   }
 }
